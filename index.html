@@ -1,0 +1,109 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fidel Zarate Hernandez</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400|Pacifico" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/jquery.onepage-scrolling.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+</head>
+<body>
+  <header class=" fixed header">
+      <div class='header-c'>
+        <i class=" iconos fa fa-bars abrir" id="menu"></i>
+        <h2 class="header-logo">Curriculum - Vitae</h2>
+        <i class=" iconos fa fa-heart"></i>
+    </div>
+  </header>
+  <nav class="nav">
+      <ul class="menu">
+        <li><a class="one-page" href="#home">Inicio</a></li>
+        <li><a class="one-page" href="#perfil">Quien soy ?</a></li>
+        <li><a class="one-page" href="#escolaridad">Escolaridad</a></li>
+        <li><a class="one-page" href="#proyectos">Proyectos</a></li>
+      </ul>
+  </nav>
+  <main class="main ">
+      <section id="home"class="home section" >
+        <div class="info">
+          <div class="info-des">
+            <img  src="img/avatar.jpg" alt="">
+          <p class="parrafo">Soy fan de <b>HTML - CSS - JS</b>. del buen <b>cine</b> y el <b>cafe</b>, me emociona la idea de descubrir nuevos paradigmas en la web, doy mantenimiento preventivo y correctivo en mis ratos libres tengo como mascota una gata de nombre (Chica), y mi deporte favorito es el <b>Skateboard</b></p>
+          </div>
+        </div>
+          <!-- <div class="home-picture">
+              <picture>
+                    <source srcset='img/small.jpg' media="(max-width : 400px)">
+                    <source srcset='img/mediun.jpg' media="(max-width:900px)">
+                    <source srcset='img/hd.jpg' media="(min-width:900px)">
+                      <img src="img/hd.jps" alt="">
+              </picture>
+          </div> -->
+          <div class="social">
+            <i class="iconos fa fa-facebook"></i>
+            <i class="iconos fa fa-twitter"></i>
+            <i class="iconos fa fa-github"></i>
+          </div>
+      </section>
+      <section id="perfil" class="section">
+        <h2 class="section-title">Soy</h2>
+        <span class='fa fa-user '></span>
+          <p>Fidel Zarate Hernandez</p>
+          <span class="fa fa-calendar"></span>
+          <p>19-02-1986</p>
+          <span class="fa fa-map"></span>
+          <p>Veracruz</p>
+          <span class="fa fa-globe"></span>
+          <p>Cosamaloapan</p>
+          <span class="fa fa-graduation-cap"></span>
+          <p>Licenciado En Informatica</p>
+          <span>(Pasante)</span>
+          <span class="fa fa-whatsapp"></span>
+          <p>(288)100-36-59</p>
+        </section>
+      <section id="escolaridad" class="section">
+          <h2 class="section-title">Escolaridad</h2>
+          <h2>Universidad</h2>
+          <span fa fa-graduation-cap></span>
+          <p>Instituto Tecnologico Superior De Cosamaloapan</p>
+          <span>(2009 - 2013)</span>
+          <h2>Bachillerato</h2>
+          <p>Instituto Veracruzano De Educacion Para Adulto</p>
+          <h2 class="cursos">Cursos</h2>
+            <p>Curso Audiovisual de Aplicaciones Moviles con HTML5</p>
+            <span>04 de marzo del 2014</span>
+            <a href="http://bextlan.com" target="_blank">Bextlan.com</a>
+            <p>Curso de HTML5 y CSS3</p>
+            <span>Noviembre 2015</span>
+            <a href="http://platzi.com" target="_blank">Platzi</a>
+        </section>
+      <section id="proyectos" class="section">
+        <h2 class="section-title">Proyectos</h2>
+        <p>Mi Curriculum Vitae</p>
+        <span>Github</span>
+        </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src='js/jquery-onepage-scrolling.min.js'></script>
+  <script>
+      $(document).on('ready', function(){
+          $('.one-page').onePageScrolling()
+
+
+          $('.abrir').on('click', function(e){
+            e.preventDefault()
+
+
+                $('.menu').slideToggle(500)
+
+          })
+    })
+
+  </script>
+</body>
+</html>
+`

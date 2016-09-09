@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h4,h6{margin: 0; padding: 0;}
+body, html{
+  font-size: 16px;
+  font-family: Helvetica;
+  overflow-x: hidden;
+}
+i{font-size: 1.7rem!important;}
+img{
+  max-width: 100%;
+  width: 160px;
+  border-radius: 3rem;
+  padding: .5rem;
+  margin-top: 1rem;
+  /*border: 1px solid red;*/
+}
+span{
+  display: block;
+  margin:  .6rem;
+}
+section{
+    color: #282828;
+    box-sizing: border-box;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  margin: 0;
+  text-align: center;
+}
+/*Cabecera*/
+.header{
+  width: 100%;
+    background-color: white;
+    height: 3rem;
+    padding: .2rem;
+    box-sizing: border-box;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+  }
+  .header-c {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+  }
+  .iconos{
+    color: rgb(133, 37, 57);
+  }
+
+/*Menu*/
+.nav{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  /*margin-top: 2rem;*/
+
+}
+.menu{
+      display: none;
+      background-color: rgba(17, 17, 8, 0.76);
+      height: auto;
+      padding: 1em;
+    }
+      .menu li{
+        list-style: none;
+        /*background: white;*/
+        padding: .5rem;
+        margin: 1rem 0;
+
+      }
+
+      .menu li a{
+        color: white;
+        font-size: 1.3rem;
+        text-decoration: none;
+        font-family: 'Oxygen';
+        font-weight: lighter;;
+      }
+
+/*Home*/
+.info{
+  /*background: rgb(190, 170, 171);*/
+  height: 90vh;
+  /*margin-top: .5rem;*/
+}
+
+.info-des p{
+  padding: 1rem;
+  text-align: justify;
+
+  /*border: 1px solid red;*/
+  line-height: 1.5;
+}
+    .social{
+      display: flex;
+      /*margin-top: -2rem;*/
+      flex-flow: wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+/*secciones*/
+.section-title{
+  color: rgb(133, 37, 57);
+  font-size: 4rem;
+}
+.cursos{
+    color: rgb(133, 37, 57);
+    font-size: 1.9rem;
+    margin: 1rem;
+}
+
+/*#perfil{background-color: rgb(78, 115, 67)}
+#escolaridad{ background-color: rgb(217, 215, 72)}
+#proyectos{ background-color: rgb(237, 48, 36)}*/
